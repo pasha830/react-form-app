@@ -11,6 +11,10 @@ class Messages extends Component{
 	render(){
 		return(
 			<div>
+
+			<p>{this.props.match.params.name}</p>
+
+			
 				Message: <textarea value={this.state.inputMessage} onChange={this.handleInputMessage}></textarea>
 				<br />
 				<br />
